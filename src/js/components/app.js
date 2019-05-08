@@ -18,7 +18,7 @@ angular
     'angularLoad'
   ])
   .config(['$routeProvider', '$locationProvider',
-    function($routeProvider) {
+    function ($routeProvider) {
       $routeProvider
         .when('/', {
           templateUrl: 'templates/welcome.html'
@@ -49,6 +49,6 @@ angular
           redirectTo: '/'
         });
 
-      $locationProvider.html5Mode(true).hashPrefix('!');
+      // $locationProvider.html5Mode(true).hashPrefix('!');
     }
   ]);
