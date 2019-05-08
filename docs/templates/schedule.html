@@ -11,7 +11,7 @@
         <ul class="event-list">
           <li ng-repeat="session in day.sessions" ng-switch="{{session.type === 'breakout' || session.type === 'professor'}}">
 
-            <div ng-switch-when="true" class="event-tile event-multi-tile">
+            <div ng-switch-when="true" event-multi-tile class="event-tile event-multi-tile">
               <event-time class="event-time"></event-time>
               <div class="event-body">
                 <h4 class="event-title">{{session.title}}</h4>
@@ -20,7 +20,7 @@
               <event-multi class="event-multi" ng-attr-start="{{session.start}}" ng-attr-end="{{session.end}}" ng-attr-timezone="{{session.timezone}}"></event-multi>
             </div>
 
-            <div ng-switch-when="false" class="event-tile">
+            <div ng-switch-when="false" event-tile class="event-tile">
               <event-time class="event-time"></event-time>
               <div class="event-body">
                 <h4 class="event-title">{{session.title}}</h4>
