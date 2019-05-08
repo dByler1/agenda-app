@@ -1,0 +1,23 @@
+.background-color-with-alpha (@color, @alpha) {
+  @rgba: rgba(red(@color), green(@color), blue(@color), @alpha);
+  /* background-color-with-alpha *///
+  background-color: @color;
+  background-color: @rgba;
+  // No longer using MS filters because they break border radius in IE9
+  // @argb: argb(@rgba);
+  // filter: ~"progid:DXImageTransform.Microsoft.gradient(startColorstr=@{argb}, endColorstr=@{argb})";
+  // -ms-filter: ~"progid:DXImageTransform.Microsoft.gradient(startColorstr=@{argb}, endColorstr=@{argb})";
+}
+
+.border-color-with-alpha (@color, @alpha) {
+  @rgba: rgba(red(@color), green(@color), blue(@color), @alpha);
+  /* border-color-with-alpha *///
+  border-color: @color;
+  border-color: @rgba;
+}
+
+.img-shadow (@x-offset: 4px, @y-offset: 4px, @blur: 5px, @alpha: 0.25) {
+	-webkit-box-shadow: @x-offset @y-offset @blur 0px rgba(0,0,0,@alpha);
+	-moz-box-shadow: @x-offset @y-offset @blur 0px rgba(0,0,0,@alpha);
+	box-shadow: @x-offset @y-offset @blur 0px rgba(0,0,0,@alpha);
+}

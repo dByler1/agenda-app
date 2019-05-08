@@ -1,0 +1,43 @@
+[
+
+  {
+    "title": "Location",
+    "description": "<p>The Camberley Meeting Room<br/>Ayres Hotel & Suites Costa Mesa/Newport Beach<br/>325 Bristol Street<br/>Costa Mesa, CA  92626<br/>(714) 549-0300<br><br><em>Parking is complimentary</em>.<br/><br/><b>WiFi at the Ayres Hotel</b><br/>Connect to the Ayres Network<br/>Password: 46899</p>"
+  },
+
+  {
+    "title": "Transportation",
+    "description": "<h5>Arrival & Departure</h5><ul><li>The Ayres Hotel provides a complimentary airport shuttle to and from John Wayne Airport (SNA). Once you arrive and have collected your luggage, call (714) 549-0300 and press option 2 for airport pickup. The shuttle will pick you up from the transportation island on the lower level of the airport.</li></ul><h5>Monday Activity</h5><ul><li>Meet your colleagues in the hotel lobby at 4:45 p.m. to coordinate and share transportation (carpool, Uber, Lyft) to the Irvine office.</li></ul><h5>Tuesday Activity</h5><ul><li>School bus transportation will be provided to and from the Ayres Hotel. Please be ready to board the busses outside the Ayres Hotel by 3:45 p.m. sharp.</li><li>Departure from Crystal Cove back to Ayres is scheduled for 7:30 p.m.</li><li><em>We must all arrive and leave together. Do not drive to this event.</em></li><li>There is a 15-minute walk from the drop off & pick up location to the beach. For those that are not able to make the walk, Beachcomber restaurant offers a shuttle to and from the parking lot down to the beach for $1.50 (cash only) each way. If you are planning to use the shuttle services, make sure you bring $3 in cash. You can have your shuttle fares reimbursed via expense report after MINDShare.</li></ul><h5>Wednesday Activity</h5><ul><li>Acapulco is walking distance from the hotel.</li><li>Ayres will provide shuttle transportation as well. To use the hotel shuttle, please be ready and waiting in the lobby by 4:45 p.m. for a 4:50 p.m. departure.</li></ul>"
+  },
+
+  {
+    "title": "Dietary Restrictions",
+    "description": "<p>Our food selections will accommodate all dietary restrictions and allergies that have been collected in the MINDShare attendee survey. If you need to make changes to the information you provided, please contact Gabby Abutom at <a href='mailto:gabutom@mindresearch.org'>gabutom@mindresearch.org</a>.</p>"
+  },
+
+  {
+    "title": "Expense Reimbursement",
+    "description": "<p>You are responsible for the hotel charges for the duration of your stay and will be reimbursed via expense report.<br><br>Use the internal project code “MINDShare 2018” when submitting expense reports for your flights and hotel rooms. Do not use the MINDShare2018 code for expenses related to the Thursday, August 2nd departmental activities and dinners.</p>"
+  },
+
+  {
+    "title": "What to Wear",
+    "description": "<p>Comfortable and casual attire is suggested. You may want to bring flip flops for the beach and activewear if you plan to use the hotel’s fitness room or participate in wellness activities.</p>"
+  },
+
+  {
+    "title": "Technology",
+    "description": "<p>Bring your fully charged laptops and iPads each day.</p>"
+  },
+
+  {
+    "title": "Wellness Options",
+    "description": "<ul><li>Back Bay Trails</li><ul><li>2301 University Dr, Newport Beach, CA 92660</li></ul></li><li>Fitness Center: Located on the 1st floor of the suites building, open from 5:30 a.m. – 10:00 p.m.</li><li>Cardio Room: Located in main building, open from 5:30 a.m. – 10:00 p.m.</li><li>Pools: Open from 7:00 a.m. – 10:00 p.m.</li><li>Yoga with Danette: 6:45 a.m. – 7:30 a.m. on Thursday, July 31 at the suites pool area. Please bring your own towels for yoga on the pool deck if you do not have a mat.</li></ul>"
+  },
+
+  {
+    "title": "Questions",
+    "description": "<p>Use the #mindshare2018 Slack channel and tag (or look for) Gabby, Brie or Twana.</p><div><div class='thumbnail'><img src='img/staff/gabby.png'><div class='caption'><h3>Gabby Abutom</h3></div></div><div class='thumbnail'><img src='img/staff/brie.png'><div class='caption'><h3>Brie Albert</h3></div></div><div class='thumbnail'><img src='img/staff/twana.png'><div class='caption'><h3>Twana Young</h3></div></div></div>"
+  }
+
+]

@@ -1,0 +1,19 @@
+<div class="section">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12">
+        <h1>Prepare</h1>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-12">
+        <ul class="prepare-list">
+          <li class="media" ng-repeat="item in items">
+            <h4 class="prepare-title">{{item.title}}</h4>
+            <div class="prepare-description" ng-bind-html="item.description"></div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>

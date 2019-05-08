@@ -1,0 +1,142 @@
+// DL Variables
+//----------------------
+
+@brand-primary: 		@tc-blue;
+@brand-default:			@brand-primary;
+
+// DL Color Variables
+//----------------------
+@brand-course:			#888888;
+@brand-green:			rgb(0, 155, 70);
+@course-default:		#f4893c;
+@course-one:			#ec5a5a;
+@course-two:			#f4893c;
+@course-three:			#f0c962;
+@course-four: 			#93be53;
+@course-five:			#42b2a0;
+@course-six:			#43a5cb;
+@course-seven:			#c87fb5;
+@gray-light:			#888888;
+@inverse:				white;
+
+@tc-gray:				#888;
+@tc-gray-light:			#aaa;
+@tc-green:				#00ab67;
+@tc-pink:				#c13b96;
+@tc-yellow:				#ffd52c;
+@tc-orange:				#f9a546;
+@tc-red:				#ef3e2e;
+@tc-blue:				#199ed9;
+@tc-blue-med:			#199ed9;//#005da8;
+@tc-blue-dark:			#3F66AF;
+
+@text-color:            #000;
+
+
+// Course logo
+@course-logo-url: 		url('../img/logos_course/course_logo.png');
+@cert-banner:			url('../img/cert-banner.png');
+@cert-course-logo:		url('../img/logos_course/large/course_logo.png');
+
+// Captions hover link
+@captions-hover-link: 	url('img/captions-hovers/captions-hover-2.svg');
+
+// Font Families
+@ff-light: 				'HelvNlight';
+@ff-med: 				'HelvNreg';
+@ff-bold: 				'HelvNbold';
+
+// Override Bootstrap Font Family Styles
+@font-family-sans-serif:  "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+// Override Bootstrap Heading Styles
+@headings-font-family:    "HelvNBold", Helvetica, Arial, sans-serif;
+@headings-font-weight:    normal;
+
+@font-size-base:          16px;
+
+@font-size-h1:            floor((@font-size-base * 2.2));
+@font-size-h2:            floor((@font-size-base * 1.8));
+@font-size-h3:            ceil((@font-size-base * 1.6));
+@font-size-h4:            ceil((@font-size-base * 1.4));
+
+// Margins
+@margin-bottom-base:	18px;
+
+// Border Radius
+@border-radius-base:	5px;
+@border-radius-large:	5px;
+
+// Borders
+@gray-border-color: 	#aaa;
+
+// Global link color
+@link-color:            @brand-course;
+
+// DL Button Colors
+@btn-primary-color:				#333;
+@btn-primary-bg:				  #fff; // @brand-course; // @gray-light;
+@btn-primary-border:			#ddd;
+@btn-primary-hover-bg:		#fff;
+@btn-primary-hover-border:		#aaa;
+
+@btn-inverse-color:				#fff;
+@btn-inverse-bg:				transparent;
+@btn-inverse-border:			transparent;
+
+/*
+@btn-success-color:             #fff;
+@btn-success-bg:                @tc-green;
+@btn-success-border:            darken(@btn-green-bg, 5%);
+*/
+
+@btn-green-color:              	#fff;
+@btn-green-bg:                 	@tc-green;
+@btn-green-border:             	darken(@btn-green-bg, 5%);
+
+@btn-danger-color:			   	#fff;
+@btn-danger-bg:                	@tc-red;
+@btn-danger-border:            	darken(@btn-danger-bg, 3%);
+
+
+// Override Bootstrap Default Navbar Variables
+//----------------------
+
+@navbar-default-color:             #777;
+@navbar-default-bg:                white;
+@navbar-default-border:            none;
+
+// Navbar links
+@navbar-default-link-color:                #aaa;
+@navbar-default-link-hover-color:          #888;
+@navbar-default-link-hover-bg:             transparent;
+@navbar-default-link-active-color:         #999;
+@navbar-default-link-active-bg:            darken(@navbar-default-bg, 6.5%);
+@navbar-default-link-disabled-color:       #ddd;
+@navbar-default-link-disabled-bg:          transparent;
+
+// Navbar brand label
+@navbar-default-brand-color:               @navbar-default-link-color;
+@navbar-default-brand-hover-color:         darken(@navbar-default-brand-color, 10%);
+@navbar-default-brand-hover-bg:            transparent;
+
+// Navbar toggle
+@navbar-default-toggle-hover-bg:          #ddd;
+@navbar-default-toggle-icon-bar-bg:        #888;
+@navbar-default-toggle-border-color:       #ddd;
+
+// Alerts
+@alert-gray-bg:            #dddddd; //rgb(203, 203, 203);
+@alert-gray-text:          #333;
+@alert-gray-border:        #aaa; //darken(@alert-gray-bg, 12%);
+
+@alert-important-bg:            #ffd200;
+@alert-important-text:          #333;
+@alert-important-border:        darken(@alert-important-bg, 12%);
+
+@alert-attachment-bg:            @course-six;
+@alert-attachment-text:          #fff;
+@alert-attachment-border:        darken(@alert-attachment-bg, 12%);
+
+// DL Component Variables
+@component-font-size-base:  ceil(@font-size-base * 0.833); // ~15px

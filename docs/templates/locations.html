@@ -1,0 +1,60 @@
+<div class="section">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12">
+        <h1>Maps & Locations</h1>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-12">
+        <p class="mrg-xsmall"><em>Tap an address to open the location in a maps application. On mobile devices, tap a phone number to call the location.</em></p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-6">
+        <div class="map-title">Ayres Hotel Floor Plan Map</div>
+        <img class="responsive-img" src="https://dlassets.stmath.com/images/mindshare/_locations/ayres_map_jiji.png">
+        <div style="margin-bottom: 35px;"><em>Pinch to zoom map.</em></div>
+      </div>
+      <div class="col-sm-6" style="margin-bottom: 25px;">
+        <div class="map-title">WiFi at the Ayres Hotel</div>
+        <p>Connect to the Ayres Network<br/>Password: 46899</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-12">
+        <ul class="locations">
+          <li ng-repeat="location in locations">
+            <div class="location-header">
+              <div class="location-title">{{location.location}}</div>
+              <div class="location-links">
+                <div class="location-row">
+                  <div class="location-pin glyphicon glyphicon-map-marker"></div>
+                  <div class="location-address">
+                    <a link-map href="" target="_blank">{{location.address}}</a>
+                  </div>
+                </div>
+                <div class="location-row">
+                  <div class="location-device glyphicon glyphicon-phone"></div>
+                  <div class="location-phone">
+                    <a link-tel href="">{{location.phone}}</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="location-body">
+              <div class="location-when">When:</b> {{location.when}}</div>
+              <div class="location-description">{{location.description}}</div>
+              <div class="location-directions" ng-bind-html="location.directions"></div>
+              <!--
+              <ul class="location-steps">
+                <li ng-repeat="step in location.steps">{{step}}</li>
+              </ul>
+              -->
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>

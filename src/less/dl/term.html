@@ -1,0 +1,132 @@
+<div class="container top-container">
+  <div class="row">
+    <div class="col-md-12">
+      <!-- Nav tabs -->
+      <ul class="nav nav-pills nav-justified" role="tablist">
+        <li role="presentation"><a ui-sref="admin-summary" role="tab">Summary</a></li>
+        <li role="presentation" class="active"><a ui-sref="admin-term" role="tab">Term Goals</a></li>
+        <li role="presentation"><a ui-sref="admin-week" role="tab">This Week</a></li>
+      </ul>
+
+      <!-- Tab panes -->
+      <div class="tab-content">
+        <div role="tabpanel" class="tab-pane">Summary</div>
+        <div role="tabpanel" class="tab-pane active">
+
+          <div class="row">
+            <div class="col-md-12">
+              <div class="dropdown-pair district" ng-if="vm.mindUser">
+                <div>District</div>
+                <ui-select ng-model="aterm.district" theme="bootstrap">
+                  <ui-select-match placeholder="Choose district">{{aterm.district.label}}</ui-select-match>
+                  <ui-select-choices repeat="district in aterm.districts">
+                    {{district.label}}
+                  </ui-select-choices>
+                </ui-select>
+              </div>
+              <div class="dropdown-pair school">
+                <div>School</div>
+                <ui-select ng-model="aterm.school" theme="bootstrap" ng-if="aterm.schools.length > 1" ng-disabled="vm.mindUser && aterm.district == ''">
+                  <ui-select-match placeholder="Choose school">{{aterm.school.label}}</ui-select-match>
+                  <ui-select-choices repeat="school in aterm.schools">
+                    {{school.label}}
+                  </ui-select-choices>
+                </ui-select>
+              </div>
+              <div class="dropdown-pair teacher">
+                <div>Teacher</div>
+                <ui-select ng-model="aterm.teacher" theme="bootstrap" ng-disabled="aterm.schools.length > 1 && aterm.school == ''">
+                  <ui-select-match placeholder="Choose teacher">{{aterm.teacher.label}}</ui-select-match>
+                  <ui-select-choices repeat="teacher in aterm.teachers">
+                    {{teacher.label}}
+                  </ui-select-choices>
+                </ui-select>
+              </div>
+              <div class="dropdown-pair group">
+                <div>Group</div>
+                <ui-select ng-model="aterm.group" theme="bootstrap" ng-disabled="aterm.teacher == ''">
+                  <ui-select-match placeholder="Choose group">{{aterm.group.label}}</ui-select-match>
+                  <ui-select-choices repeat="group in aterm.groups">
+                    {{group.label}}
+                  </ui-select-choices>
+                </ui-select>
+              </div>
+              <div class="dropdown-pair term">
+                <div>Term</div>
+                <ui-select ng-model="aterm.term" theme="bootstrap" ng-disabled="aterm.group == ''">
+                  <ui-select-match placeholder="Choose term">{{aterm.term.label}}</ui-select-match>
+                  <ui-select-choices repeat="term in aterm.terms">
+                    {{term.label}}
+                  </ui-select-choices>
+                </ui-select>
+              </div>
+              <button class="btn btn-primary form-submit" ng-click="aterm.submitAterm()" ng-disabled="aterm.school == '' || aterm.teacher == '' || aterm.group == '' || aterm.term == ''" type="button">Submit</button>
+            </div>
+          </div>
+
+          <div ng-if="!aterm.dataLoaded">
+            <div class="row">
+              <div class="col-md-12">
+                <p class="preload-message">Choose a group and term and click <b>Submit</b> to retreive data.</p>
+              </div>
+            </div>
+          </div>
+
+          <div ng-if="aterm.dataLoaded">
+
+            <div class="row term-summary-container">
+              <div class="col-md-5">
+                <div class="term-summary-row">
+                  <div>Current Week in Term:</div>
+                  <div>{{aterm.classGoals.weekOfTerm}} of {{aterm.classGoals.weeksInTerm}}</div>
+                </div>
+                <div class="term-summary-row">
+                  <div>Term Goal:</div>
+                  <div>{{aterm.classGoals.termObjectiveGoal}} objectives completed</div>
+                </div>
+                <div class="term-summary-row">
+                  <div>Current Class Average:</div>
+                  <div>{{aterm.classGoals.averageObjectivesCompleted | number:1}} objectives completed</div>
+                </div>
+                <div class="term-summary-row">
+                  <div>Target Complete:</div>
+                  <div>{{aterm.classGoals.expectedObjectivesCompleted}} objectives completed</div>
+                </div>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-md-12">
+                <table class="table data-table" border="0" ts-wrapper>
+                  <thead>
+                    <tr>
+                      <th ts-criteria="last_name" ts-default>Student Name</th>
+                      <th ts-criteria="completedObjectives">Completed Objectives</th>
+                      <th ts-criteria="cappedLoginsPerWeek">Logins Per Week (Capped)</th>
+                      <th ts-criteria="loginsPerWeek">Logins Per Week</th>
+                      <th ng-repeat="week in weeklyLoginSummary" ts-criteria="week.logins">{{week.weekStartDate.substring(5,7)}} {{week.weekStartDate.substring(9,10)}} - {{week.weekEndDate.substring(5,7)}} {{week.weekEndDate.substring(9,10)}}</th>
+                      <th ts-criteria="completedObjectiveNames">Objectives Completed</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr ng-repeat="student in aterm.students" ts-repeat>
+                      <td>{{student.firstName}} {{student.lastName}}</td>
+                      <td>{{student.completedObjectives}}</td>
+                      <td>{{student.loginsPerWeek > 2?student.loginsPerWeek + '+':student.loginsPerWeek}}</td>
+                      <td>{{student.cappedLoginsPerWeek > 2?student.cappedLoginsPerWeek + '+':student.cappedLoginsPerWeek}}</td>
+                      <td ng-repeat="week in student.weeklyLoginSummary">{{week.logins}}</td>
+                      <td>{{student.completedObjectiveNames}}</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+        <div role="tabpanel" class="tab-pane">This Week</div>
+      </div>
+    </div>
+  </div>
+</div>

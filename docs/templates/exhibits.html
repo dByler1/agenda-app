@@ -1,0 +1,48 @@
+<div class="section">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12">
+        <h1>Exhibits</h1>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-12">
+        <ul class="media-list">
+          <li class="media" ng-repeat="exhibit in exhibits">
+            <span class="pull-left" href="#"><img ng-attr-src="https://dlassets.stmath.com/images/mindshare/_exhibits/{{exhibit.image}}" class="media-object" src="" height="150" width="150"></span>
+            <div class="media-body">
+              <h4 class="media-heading">{{exhibit.title}}</h4>
+              <p>{{exhibit.description}}</p>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <!--
+    <div class="row">
+      <div class="col-sm-12 exhibit-hours">
+        <h3>Paco Publications Hours:</h3>
+        <div>
+          <span>Monday: MIND Headquarters</span>
+          <span>5pm - 7pm</span>
+        </div>
+        <div>
+          <span>Tuesday: Beckman Library</span>
+          <span>12:00pm - 1:10pm</span>
+          <span>4:30pm - 5:30pm</span>
+        </div>
+        <div>
+          <span>Wednesday: Beckman Library</span>
+          <span>8:00am - 8:25am</span>
+          <span>11:45am - 1:00pm</span>
+        </div>
+        <div>
+          <span>Thursday: Beckman Library</span>
+          <span>8:00am - 8:25pm</span>
+          <span>11:45am - 1:00pm</span>
+        </div>
+      </div>
+    </div>
+    -->
+  </div>
+</div>

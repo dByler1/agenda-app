@@ -1,0 +1,14 @@
+<div>
+  <ul class="event-list multi-list">
+    <li ng-repeat="session in multiCtlr.session.sessions">
+
+      <div event-multi-session class="event-tile event-multi-session" time="{{multiCtlr.session.time}}">
+        <div class="event-body">
+          <h4 class="event-title">{{session.title}}</h4>
+          <p class="event-speaker">{{session.organizer}}</p>
+        </div>
+      </div>
+
+    </li>
+  </ul>
+</div>

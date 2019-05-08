@@ -1,0 +1,136 @@
+<!doctype html>
+<html class="no-js">
+
+<head>
+  <meta charset="utf-8">
+  <title>MINDShare 2018</title>
+  <meta name="viewport" content="width=device-width">
+  <meta name="name" content="MINDShare Program">
+  <meta name="description" content="">
+  <meta name="author" content="MIND Research Institute">
+  <base href="/">
+  <!-- Web App -->
+  <meta name="mobile-web-app-capable" content="yes">
+  <!-- Removing iOS Web App
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="default">
+    -->
+  <meta name="format-detection" content="address=no;email=yes;telephone=no">
+  <!-- Icons -->
+  <link rel="shortcut-icon" sizes="196x196" href=" https://dlassets.stmath.com/images/mindshare/webapp/chrome-icon-large3.png">
+  <link rel="shortcut-icon" sizes="128x128" href="https://dlassets.stmath.com/images/mindshare/webapp/chrome-icon-small3.png">
+  <link rel="apple-touch-icon" href="https://dlassets.stmath.com/images/mindshare/webapp/ati-iphone3.png">
+  <link rel="apple-touch-icon-precomposed" href="https://dlassets.stmath.com/images/mindshare/webapp/ati-iphone3.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="https://dlassets.stmath.com/images/mindshare/webapp/ati-ipad3.png">
+  <link rel="apple-touch-icon-precomposed" sizes="72x72" href="https://dlassets.stmath.com/images/mindshare/webapp/ati-ipad3.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="https://dlassets.stmath.com/images/mindshare/webapp/ati-iphone-rd3.png">
+  <link rel="apple-touch-icon-precomposed" sizes="114x114" href="https://dlassets.stmath.com/images/mindshare/webapp/ati-iphone-rd3.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="https://dlassets.stmath.com/images/mindshare/webapp/ati-ipad-rd3.png">
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="https://dlassets.stmath.com/images/mindshare/webapp/ati-ipad-rd3.png">
+  <!-- CSS -->
+  <link rel="stylesheet" href="css/app.css">
+  <style>
+    .welcome-mind {
+      max-width: 250px;
+      width: 90%;
+      margin-bottom: 15px;
+    }
+
+    .responsive-img {
+      max-width: 400px;
+      width: 100%;
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+      color: #4e525c !important;
+    }
+
+    h4.event-title {
+      color: #fff !important;
+    }
+
+    .professor {
+      background: #a5a5a5;
+      border-color: #aaaaaa;
+    }
+
+    .professor event-multi {
+      display: none;
+    }
+  </style>
+</head>
+
+<body ng-app="msProgram">
+
+  <!-- Download Progress Bar-->
+  <div id="appcache-update-progress">
+    <div id="appcache-progress-status"></div>
+  </div>
+
+  <!-- Update Available Modal -->
+  <div id="dl-modal-update" tabindex="-1" role="dialog" aria-labelledby="Update Available" aria-hidden="true" class="modal fade">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h4 class="modal-title">Program Update Available!</h4>
+          <div class="modal-loader"></div>
+        </div>
+      </div>
+      <div class="modal-body">
+        <p>A program update is available and will be loaded when you click <span class="dlt-click">Update</span>.</p>
+      </div>
+      <div class="modal-footer">
+        <button id="dl-update" type="button" data-dismiss="modal" class="btn btn-primary">Update</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Event Details Modal -->
+  <div id="event-modal" tabindex="-1" role="dialog" aria-labelledby="Event Details" aria-hidden="true" class="modal fade">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <i type="button" data-dismiss="modal" aria-hidden="true" class="glyphicon glyphicon-remove"></i>
+          <h4 class="modal-title"></h4>
+        </div>
+        <div class="modal-body">
+          <p class="modal-time"></p>
+          <p class="modal-speaker"></p>
+          <p class="modal-location"></p>
+          <p class="modal-description"></p>
+        </div>
+        <div class="modal-footer">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Main Navigation -->
+  <header class="banner">
+    <nav-bar></nav-bar>
+  </header>
+
+  <!-- Page Content -->
+  <div id="page">
+    <div id="dl-main">
+      <div ng-view=""></div>
+      <div class="footer">
+        <div class="logo"></div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- Scripts -->
+  <script src="js/debug/app.js"></script>
+  <script src="js/appcache.min.js"></script>
+
+
+</body>
+
+</html>

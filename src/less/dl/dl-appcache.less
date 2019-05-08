@@ -1,0 +1,124 @@
+// DL AppCache Styles
+
+// DL Notification Ribbon
+#appcache-update-available {
+  background: #838383;
+  position: fixed;
+  top: -250px;
+  left: 50%;
+  display: block;
+  margin: 0 auto 0;
+  padding: 55px 15px 0;
+  margin-left: -150px;
+  height: 175px;
+  width: 300px;
+  z-index: 1030;
+  opacity: 0.99;
+  -webkit-transform: translate3d(0px, 0, 0);
+  transform: translate(0, 0);
+  -webkit-transform: translate(0, 0);
+  -moz-transform: translate(0, 0);
+  -o-transform: translate(0, 0);
+  -ms-transform: translate(0, 0);
+  -webkit-transition: top 0.4s ease-out;
+  -moz-transition: top 0.4s ease-out;
+  -o-transition: top 0.4s ease-out;
+  transition: top 0.4s ease-out;
+}
+#appcache-update-available:before {
+  content: '';
+  display: block;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  position: absolute;
+  left: 0;
+  border-width: 0 75px 30px 75px;
+  border-color: transparent #838383 transparent #838383;
+  bottom: -30px;
+}
+#appcache-update-available:after {
+  content: '';
+  display: block;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  position: absolute;
+  left: 150px;
+  border-width: 0 75px 30px 75px;
+  border-color: transparent #838383 transparent #838383;
+  bottom: -30px;
+}
+#appcache-update-available #close {
+  float: right;
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  margin: 0;
+  padding: 14px;
+  font-size: 1.6em;
+  z-index: 1;
+  color: #fff;
+}
+#appcache-update-available #close:hover {
+  color: #ddd;
+}
+#appcache-update-available #close:active,
+#appcache-update-available #close.active {
+  box-shadow: none;
+}
+#appcache-update-available #close i {
+  float: left;
+}
+#appcache-update-available #message {
+  font-family: "HelvNBold", Helvetica, sans-serif;
+  font-weight: 500;
+  display: block;
+  width: 100%;
+  color: #fff;
+  text-align: center;
+  margin-top: 22px;
+  line-height: 24px;
+}
+#appcache-update-available #refresh {
+  color: #fff;
+  font-family: "HelvNBold", Helvetica, sans-serif;
+}
+#appcache-update-available #refresh:hover {
+  color: #fff;
+  text-decoration: none;
+}
+#appcache-update-available.slidein {
+  top: 0;
+}
+#appcache-update-progress {
+  position: fixed;
+  height: 5px;
+  width: 100%;
+  z-index: 9999;
+  transform: translate(0, 0);
+  -webkit-transform: translate(0, 0);
+  -moz-transform: translate(0, 0);
+  -o-transform: translate(0, 0);
+  -ms-transform: translate(0, 0);
+  -webkit-transition: top 0.5s ease-out;
+  -moz-transition: top 0.5s ease-out;
+  -o-transition: top 0.5s ease-out;
+  transition: top 0.5s ease-out;
+  top: -5px;
+}
+#appcache-update-progress.slidein {
+  top: 0;
+}
+#appcache-progress-status {
+  -webkit-transition: width 0.1s ease-in;
+  -moz-transition: width 0.1s ease-in;
+  -o-transition: width 0.1s ease-in;
+  transition: width 0.1s ease-in;
+  background: #8a8abf;
+  position: fixed;
+  top: 0;
+  height: 5px;
+  width: 0;
+  z-index: 9998;
+}

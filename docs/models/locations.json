@@ -1,0 +1,30 @@
+[
+
+  {
+    "location": "Monday, July 30: MINDShare Kick-off",
+    "address": "100 Academy Dr, Irvine, CA 92617",
+    "phone": "(949) 345-8700",
+    "when": "5:00 p.m. – 7:30 p.m.",
+    "description": "Join us at the Irvine office courtyard at 5:00 p.m. for a picnic with games and refreshments. The In-N-Out truck will start serving dinner at 6:00 p.m. and the JiJi Band will be making a special appearance. (Family welcome.) Local folks – bring your picnic blankets and lawn chairs!",
+    "directions": "<p><b>Transportation:</b> For those already checked in to the hotel, you can ask the hotel shuttle to transport you, carpool with colleagues or use a ridesharing app (Uber, Lyft).</p>"
+  },
+
+  {
+    "location": "Tuesday, July 31: MIND’s 20th Anniversary Beach Celebration",
+    "address": "8471 N Coast Hwy, Laguna Beach, CA 92651",
+    "phone": "(949) 494-3539",
+    "when": "4:00 p.m. – 7:30 p.m.",
+    "description": "Celebrate MIND's 20th Anniversary on the sand with sliders and s'mores! Be sure to wear comfortable shoes as there is a 15-minute walk to our area.",
+    "directions": "<p><b>Transportation:</b> Provided for all! Crystal Cove State Park has parking restrictions, so we must all arrive and leave together. <b>Please be ready for departure from the Ayres Hotel lobby by 3:45 p.m. sharp</b>.</p><p>Busses will drop us off at the Los Trancos Parking Lot. From there, we will walk to the beach promenade by Beachcomber Café. If you are unable to make the walk, bring $3 cash to use the Beachcomber shuttle for $1.50 each way. You can have your shuttle fares reimbursed via expense report after MINDShare.</p>"
+  },
+
+  {
+    "location": "Wednesday, August 1: Tacos & Trivia",
+    "address": "1262 Bristol St Costa Mesa, CA 92626",
+    "phone": "(714) 754-6528",
+    "when": "5:00 p.m. – 8:00 p.m.",
+    "description": "Fancy yourself a sports fanatic or pop culture connoisseur? Tonight, we put our collective knowledge to use! Walk over to Acapulco Restaurant & Cantina and join us on their patio for margaritas, tacos and trivia.",
+    "directions": "<p><b>Transportation:</b> Acapulco is a short walk from the Ayres Hotel. When you exit the hotel, walk toward Bristol then turn left.</p><p>Ayres will provide shuttle transportation as well. To use the hotel shuttle, please be ready and waiting in the lobby by 4:45 p.m. for a 4:50 p.m. departure.</p><p>Feel free to carpool with colleagues! Parking is available outside the restaurant.</p>"
+  }
+
+]

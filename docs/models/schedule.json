@@ -1,0 +1,440 @@
+[
+  {"sessions": [
+    {
+      "type": "general",
+      "start": "07/30/2018 08:00 AM",
+      "end": "07/30/2018 04:00 PM",
+      "time": "8:00 AM-4:00 PM",
+      "timezone": "America/Los_Angeles",
+      "title": "PD Team: Training",
+      "description": "This time is dedicated to providing training on some advanced courses in the morning and support for new ESMs learning the Intro Training in the afternoon. It will also be a time for the PD team to develop supporting resources for ESMs.",
+      "location": "8AM-12PM in Gentoo at MIND HQ and 1PM-4PM in Magellanic at MIND HQ",
+      "organizer": "Twana Young and PD Team",
+      "date_format": "MM/DD/YYYY"
+    },
+    {
+      "type": "afterparty",
+      "start": "07/30/2018 03:30 PM",
+      "end": "07/30/2018 04:30 PM",
+      "time": "3:30 PM-4:30 PM",
+      "timezone": "America/Los_Angeles",
+      "title": "Finance Team Building Activity",
+      "description": "Finance - get ready to be trapped in a room with your team!",
+      "location": "Escape X Rooms (17981 Sky Park Cir Suite H, Irvine, CA 92614)",
+      "organizer": "",
+      "date_format": "MM/DD/YYYY"
+    },
+    {
+      "type": "afterparty",
+      "start": "07/30/2018 05:00 PM",
+      "end": "07/30/2018 07:30 PM",
+      "time": "5:00 PM-7:30 PM",
+      "timezone": "America/Los_Angeles",
+      "title": "MINDShare 2018 Kick-off Event!",
+      "description": "Join us at the Irvine office courtyard at 5:00 p.m. for a picnic with games and refreshments. The In-N-Out truck will start serving dinner at 6:00 p.m. and the JiJi Band will be making a special appearance. (Family welcome.) Local folks – bring your picnic blankets and lawn chairs!",
+      "location": "MIND HQ Courtyard",
+      "organizer": "",
+      "date_format": "MM/DD/YYYY"
+    }
+  ]},
+  {"sessions": [
+    {
+      "type": "break",
+      "start": "07/31/2018 06:30 AM",
+      "end": "07/31/2018 08:30 AM",
+      "time": "6:30 AM-8:30 AM",
+      "timezone": "America/Los_Angeles",
+      "title": "Breakfast for Ayres hotel guests at Restaurant Le Chateau",
+      "description": "Breakfast will be served in Restaurant Le Chateau at the Ayres for hotel guests.",
+      "location": "Restaurant Le Chateau",
+      "organizer": "",
+      "date_format": "MM/DD/YYYY"
+    },
+    {
+      "type": "break",
+      "start": "07/31/2018 08:15 AM",
+      "end": "07/31/2018 08:50 AM",
+      "time": "8:15 AM-8:50 AM",
+      "timezone": "America/Los_Angeles",
+      "title": "Check in at Registration Table",
+      "description": "Check in and pick up your shirts from the Registration Table in the Ayres courtyard.",
+      "location": "Ayres Courtyard",
+      "organizer": "",
+      "date_format": "MM/DD/YYYY"
+    },
+    {
+      "type": "general",
+      "start": "07/31/2018 09:00 AM",
+      "end": "07/31/2018 11:15 AM",
+      "time": "9:00 AM-11:15 AM",
+      "timezone": "America/Los_Angeles",
+      "title": "The Charm & Hammer Show",
+      "description": "Celebrate MIND's fascinating 20-year history with Karin Wu and Kevin Hammer hosting your soon-to-be favorite talk show!  Special guests will explore the evolution of our mission, brand, product, roles, and much more!",
+      "location": "Camberley Meeting Room",
+      "organizer": "Kevin Hammer & Karin Wu",
+      "date_format": "MM/DD/YYYY"
+    },
+    {
+      "type": "general",
+      "start": "07/31/2018 11:40 AM",
+      "end": "07/31/2018 12:30 PM",
+      "time": "11:40 AM-12:30 PM",
+      "timezone": "America/Los_Angeles",
+      "title": "Looking to the Future",
+      "description": "Hear about MIND's plans for the future and the direction we're going in before we experience some of the innovative products and enhancements we have to look forward to.",
+      "location": "Camberley Meeting Room",
+      "organizer": "Brett Woudenberg, Matt Feldmann & Paul Blair",
+      "date_format": "MM/DD/YYYY"
+    },
+    {
+      "type": "lunch",
+      "start": "07/31/2018 12:40 PM",
+      "end": "07/31/2018 02:00 PM",
+      "time": "12:40 PM-2:00 PM",
+      "timezone": "America/Los_Angeles",
+      "title": "Lunch",
+      "description": "",
+      "location": "",
+      "organizer": "",
+      "date_format": "MM/DD/YYYY"
+    },
+    {
+      "type": "general",
+      "start": "07/31/2018 02:00 PM",
+      "end": "07/31/2018 03:30 PM",
+      "time": "2:00 PM-3:30 PM",
+      "timezone": "America/Los_Angeles",
+      "title": "Looking to the Future Part Two",
+      "description": "Expanding on MIND's plans for the future, we reconvene this session to experience some innovative products and enhancements we have to look forward to. (Bring your laptops.)",
+      "location": "Camberley Meeting Room",
+      "organizer": "Brandon Smith, Ki Karou & Erich Zeller, Matthew Peterson",
+      "date_format": "MM/DD/YYYY"
+    },
+    {
+      "type": "professor",
+      "start": "07/31/2018 03:30 PM",
+      "end": "07/31/2018 03:45 PM",
+      "time": "3:30 PM-3:45 PM",
+      "timezone": "America/Los_Angeles",
+      "title": "3:45 PM Busses Depart for the beach from Ayres Lobby",
+      "description": "",
+      "location": "",
+      "organizer": "After the last session, quickly drop off your belongings in your rooms and head to the lobby to board the busses! Busses depart on time, with or without you.",
+      "date_format": "MM/DD/YYYY"
+    },
+    {
+      "type": "afterparty",
+      "start": "07/31/2018 04:30 PM",
+      "end": "07/31/2018 07:30 PM",
+      "time": "4:30 PM-7:30 PM",
+      "timezone": "America/Los_Angeles",
+      "title": "Beach Dinner at Crystal Cove",
+      "description": "Celebrate MIND's 20th Anniversary on the sand with sliders and s'mores! Busses will take you round trip - be ready to depart from Ayres Hotel at 3:50 p.m. and return at 7:30 p.m. Wear comfortable shoes for the 15-minute walk through the Crystal Cove State Park. For those that are not able to make the walk, bring $3 cash to use the Beachcomber shuttle for $1.50 each way. You can have your shuttle fares reimbursed via expense report after MINDShare.",
+      "location": "Crystal Cove State Beach",
+      "organizer": "",
+      "date_format": "MM/DD/YYYY"
+    }
+  ]},
+  {"sessions": [
+    {
+      "type": "break",
+      "start": "08/01/2018 06:30 AM",
+      "end": "08/01/2018 08:30 AM",
+      "time": "6:30 AM-8:30 AM",
+      "timezone": "America/Los_Angeles",
+      "title": "Breakfast for Ayres hotel guests at Restaurant Le Chateau",
+      "description": "Breakfast will be served in Restaurant Le Chateau at the Ayres for hotel guests.",
+      "location": "Restaurant Le Chateau",
+      "organizer": "",
+      "date_format": "MM/DD/YYYY"
+    },
+    {
+      "type": "break",
+      "start": "08/01/2018 08:15 AM",
+      "end": "08/01/2018 08:50 AM",
+      "time": "8:15 AM-8:50 AM",
+      "timezone": "America/Los_Angeles",
+      "title": "Check in at Registration Table",
+      "description": "If you haven't already, be sure to check in and pick up your shirts from the Registration Table in the Ayres courtyard.",
+      "location": "Ayres Courtyard",
+      "organizer": "",
+      "date_format": "MM/DD/YYYY"
+    },
+    {
+      "type": "icebreaker",
+      "start": "08/01/2018 09:00 AM",
+      "end": "08/01/2018 09:10 AM",
+      "time": "9:00 AM-9:10 AM",
+      "timezone": "America/Los_Angeles",
+      "title": "Welcome",
+      "description": "Come and hear about today’s theme: People. Learn how we are working together to support our customers, our donors and each other.",
+      "location": "Camberley Meeting Room",
+      "organizer": "Brett Woudenberg",
+      "date_format": "MM/DD/YYYY"
+    },
+    {
+      "type": "general",
+      "start": "08/01/2018 09:10 AM",
+      "end": "08/01/2018 10:00 AM",
+      "time": "9:10 AM-10:00 AM",
+      "timezone": "America/Los_Angeles",
+      "title": "The People of MIND: A Journey with JiJi",
+      "description": "Travel with JiJi on an adventure through the customer journey. On this trip we'll explore how the customer journey flows and how each department impacts the experience.",
+      "location": "Camberley Meeting Room",
+      "organizer": "MIND Talent",
+      "date_format": "MM/DD/YYYY"
+    },
+    {
+      "type": "general",
+      "start": "08/01/2018 10:05 AM",
+      "end": "08/01/2018 11:00 AM",
+      "time": "10:05 AM-11:00 AM",
+      "timezone": "America/Los_Angeles",
+      "title": "The People of MIND: A Journey with JiJi Part 2",
+      "description": "Travel with JiJi on an adventure through the customer journey. On this trip we'll explore how the customer journey flows and how each department impacts the experience.",
+      "location": "Camberley Meeting Room",
+      "organizer": "MIND Talent",
+      "date_format": "MM/DD/YYYY"
+    },
+    {
+      "type": "general",
+      "start": "08/01/2018 11:15 AM",
+      "end": "08/01/2018 12:00 PM",
+      "time": "11:15 AM-12:00 PM",
+      "timezone": "America/Los_Angeles",
+      "title": "How MIND Fits in the EdTech Space",
+      "description": "ST Math is not your average EdTech program. Learn what makes us different from our competitors and how we can break schemas of what instructional software \"should be.\"",
+      "location": "Camberley Meeting Room",
+      "organizer": "Matt Feldmann and Ki Karou",
+      "date_format": "MM/DD/YYYY"
+    },
+    {
+      "type": "general",
+      "start": "08/01/2018 12:05 PM",
+      "end": "08/01/2018 01:00 PM",
+      "time": "12:05 PM-1:00 PM",
+      "timezone": "America/Los_Angeles",
+      "title": "How MIND fits into Education",
+      "description": "How does MIND impact mathematics education? Discover how our programs and approach connect with and transform the teaching and learning of mathematics. This session will be recorded.",
+      "location": "Camberley Meeting Room",
+      "organizer": "Twana Young, Brian Coffey & special guest Anne Oberjuerge",
+      "date_format": "MM/DD/YYYY"
+    },
+    {
+      "type": "lunch",
+      "start": "08/01/2018 01:00 PM",
+      "end": "08/01/2018 02:30 PM",
+      "time": "1:00 PM-2:30 PM",
+      "timezone": "America/Los_Angeles",
+      "title": "Lunch",
+      "description": "",
+      "location": "",
+      "organizer": "",
+      "date_format": "MM/DD/YYYY"
+    },
+    {
+      "type": "general",
+      "start": "08/01/2018 02:30 PM",
+      "end": "08/01/2018 04:00 PM",
+      "time": "2:30 PM-4:00 PM",
+      "timezone": "America/Los_Angeles",
+      "title": "Core Values Panel",
+      "description": "Join in a discussion around diversity and inclusion as part of shaping our core values and company culture. ",
+      "location": "Camberley Meeting Room",
+      "organizer": "Karin Wu, James Masterson, Aram Gonzalez, Nina Wu and special guest Gloria Montiel",
+      "date_format": "MM/DD/YYYY"
+    },
+    {
+      "type": "afterparty",
+      "start": "08/01/2018 05:00 PM",
+      "end": "08/01/2018 08:00 PM",
+      "time": "5:00 PM-8:00 PM",
+      "timezone": "America/Los_Angeles",
+      "title": "Tacos & Trivia at Acapulco",
+      "description": "Fancy yourself a sports fanatic or pop culture connoisseur? Tonight, we put our collective knowledge to use! Walk over to Acapulco and join us on their patio for margaritas, tacos and trivia. The restaurant is walking distance from the hotel, however Ayres will provide a shuttle as well. For those interested, please be ready and waiting in the lobby by 4:45 p.m. for a 4:50 p.m. departure.",
+      "location": "Acapulco (1262 Bristol St, Costa Mesa, CA 92626)",
+      "organizer": "",
+      "date_format": "MM/DD/YYYY"
+    }
+  ]},
+  {"sessions": [
+    {
+      "type": "break",
+      "start": "08/02/2018 06:30 AM",
+      "end": "08/02/2018 08:30 AM",
+      "time": "6:30 AM-8:30 AM",
+      "timezone": "America/Los_Angeles",
+      "title": "Breakfast for Ayres hotel guests at Restaurant Le Chateau",
+      "description": "Breakfast will be served in Restaurant Le Chateau at the Ayres for hotel guests.",
+      "location": "Restaurant Le Chateau",
+      "organizer": "",
+      "date_format": "MM/DD/YYYY"
+    },
+    {
+      "type": "break",
+      "start": "08/02/2018 06;45 AM",
+      "end": "08/02/2018 07:30 AM",
+      "time": "6:45 AM-7:30 AM",
+      "timezone": "America/Los_Angeles",
+      "title": "Yoga",
+      "description": "Join Danette for a guided morning Yoga session by the Suites Pool Area. Please bring your own towels for yoga on the pool deck if you do not have a mat.",
+      "location": "Suites Pool Area",
+      "organizer": "",
+      "date_format": "MM/DD/YYYY"
+    },
+    {
+      "type": "icebreaker",
+      "start": "08/02/2018 09:00 AM",
+      "end": "08/02/2018 09:10 AM",
+      "time": "9:00 AM-9:10 AM",
+      "timezone": "America/Los_Angeles",
+      "title": "Welcome",
+      "description": "Come and hear about today’s theme: Passion. We are all here because we love this work come and learn how what we do makes a difference.",
+      "location": "Camberley Meeting Room",
+      "organizer": "Brett Woudenberg",
+      "date_format": "MM/DD/YYYY"
+    },
+    {
+      "type": "breakout",
+      "start": "08/02/2018 09:10 AM",
+      "end": "08/02/2018 11:40 AM",
+      "time": "9:10 AM-11:40 AM",
+      "timezone": "America/Los_Angeles",
+			"title": "Breakout Sessions",
+      "date_format": "MM/DD/YYYY",
+      "sessions": [
+        {
+          "title": "Cross-functional Collaboration: Education Success, Education Partnerships and Engagement",
+          "organizer": "Jim Lund, Brian Molitor, Karin Wu",
+          "location": "Camberley Meeting Room",
+          "description": "Passion fuels us, and a clear understanding of our responsibilities ensures we orchestrate an effective and efficient customer experience. We will discuss a responsibility framework, clarify communication, and outline action items to make sure we are delivering value to our schools and districts."
+        },
+        {
+          "title": "Social Impact",
+          "organizer": "",
+          "location": "Essex Meeting Room",
+          "description": ""
+        },
+        {
+          "title": "Engineering",
+          "organizer": "",
+          "location": "Breton West Meeting Room",
+          "description": ""
+        },
+        {
+          "title": "PD Team",
+          "organizer": "",
+          "location": "Breton East Meeting Room",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "type": "lunch",
+      "start": "08/02/2018 11:40 AM",
+      "end": "08/02/2018 01:10 PM",
+      "time": "11:40 AM-1:10 PM",
+      "timezone": "America/Los_Angeles",
+      "title": "Lunch",
+      "description": "",
+      "location": "",
+      "organizer": "",
+      "date_format": "MM/DD/YYYY"
+    },
+    {
+      "type": "breakout",
+      "start": "08/02/2018 01:10 PM",
+      "end": "08/02/2018 03:40 PM",
+      "time": "1:10 PM-3:40 PM",
+      "timezone": "America/Los_Angeles",
+			"title": "Breakout Sessions",
+      "date_format": "MM/DD/YYYY",
+      "sessions": [
+        {
+          "title": " Departmental Session: ESM Training",
+          "organizer": "Jim Lund & Twana Young",
+          "location": "Camberley Meeting Room",
+          "description": "Time to get tactical with Education Success. We will discuss PD changes, Implementation enhancements, and begin our FY19 segmentation strategy"
+        },
+        {
+          "title": " Partnerships",
+          "organizer": "",
+          "location": "Breton East Meeting Room",
+          "description": ""
+        },
+        {
+          "title": "Social Impact & Engagement",
+          "organizer": "",
+          "location": "Essex Meeting Room",
+          "description": ""
+        },
+        {
+          "title": "Engineering",
+          "organizer": "",
+          "location": "Breton West Meeting Room",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "type": "icebreaker",
+      "start": "08/02/2018 03:45 PM",
+      "end": "08/02/2018 04:00 PM",
+      "time": "3:45 AM-4:00 PM",
+      "timezone": "America/Los_Angeles",
+      "title": "Closing Remarks",
+      "description": "Concluding MINDShare 2018: MINDmatters",
+      "location": "Camberley Meeting Room",
+      "organizer": "Brett Woudenberg",
+      "date_format": "MM/DD/YYYY"
+    },
+    {
+      "type": "afterparty",
+      "start": "08/01/2018 06:00 PM",
+      "end": "08/01/2018 09:00 PM",
+      "time": "6:00 PM-9:00 PM",
+      "timezone": "America/Los_Angeles",
+      "title": "Finance: Dinner at North Italia",
+      "description": "Dinner at North Italia at 6:00 PM",
+      "location": "North Italia (2957 Michelson Dr, Irvine, CA 92612)",
+      "organizer": "North Italia",
+      "date_format": "MM/DD/YYYY"
+    },
+    {
+      "type": "afterparty",
+      "start": "08/01/2018 06:00 PM",
+      "end": "08/01/2018 09:00 PM",
+      "time": "6:00 PM-9:00 PM",
+      "timezone": "America/Los_Angeles",
+      "title": "Partnerships & Social Impact: Dinner at Cucina Enoteca",
+      "description": "Dinner at Cucina Enoteca, Newport Beach at 6:00 PM",
+      "location": "Cucina Enoteca at Fashion Island (951 Newport Center Dr, Newport Beach, CA 92660)",
+      "organizer": "Cucina Enoteca Newport Beach",
+      "date_format": "MM/DD/YYYY"
+    },
+    {
+      "type": "afterparty",
+      "start": "08/01/2018 05:00 PM",
+      "end": "08/01/2018 09:00 PM",
+      "time": "5:00 PM-9:00 PM",
+      "timezone": "America/Los_Angeles",
+      "title": "Engineering, Product, Data & Engagement: Games & Dinner in the Annex",
+      "description": "Games & Dinner in the Annex",
+      "location": "Annex at MIND Irvine Offices (111 Academy, Irvine CA 92617)",
+      "organizer": "Annex at MIND Irvine Offices",
+      "date_format": "MM/DD/YYYY"
+    },
+    {
+      "type": "afterparty",
+      "start": "08/01/2018 06:00 PM",
+      "end": "08/01/2018 09:00 PM",
+      "time": "6:00 PM-9:00 PM",
+      "timezone": "America/Los_Angeles",
+      "title": "Ed Success: Explore the OC in Small Groups!",
+      "description": "Explore the OC in Small Groups! Please discuss various options with your managers.",
+      "location": "Annex at MIND Irvine Offices (111 Academy, Irvine CA 92617)",
+      "organizer": "Various Locations",
+      "date_format": "MM/DD/YYYY"
+    }
+  ]}
+]

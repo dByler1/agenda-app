@@ -1,0 +1,435 @@
+
+// Font Family
+
+body {
+	font-size: 16px;
+	font-family: @ff-light;
+	line-height: 1.5em;
+	color: #333 !important;
+
+	a {
+		color: #888;
+		text-decoration: underline;
+
+		&:hover {
+			color: #6bb9ad;
+
+		}
+
+		&.btn {
+			text-decoration: none;
+		}
+	}
+
+	@media (min-width: @screen-sm-min) {
+		font-size: @font-size-base;
+	}
+}
+
+.tf-light {
+	font-family: @ff-light;
+}
+
+.tf-bold {
+	font-family: @ff-bold;
+}
+
+.tf-med {
+	font-family: @ff-med;
+}
+
+b {
+	font-family: @ff-med;
+	font-weight: normal;
+}
+
+
+// Font Sizes
+
+.ts-xsmall {
+	font-size: 0.8em;
+	line-height: 18px;
+}
+
+.ts-small {
+	font-size: 0.9em;
+	line-height: 22px;
+}
+
+.ts-med {
+	font-size: 1em;
+	line-height: 26px;
+}
+
+.ts-large {
+	font-size: 1.2em;
+	line-height: 24px;
+}
+
+.ts-xlarge {
+	font-size: 1.8em;
+	line-height: 34px;
+}
+
+// Text Types
+
+strong {
+	font-family: @ff-bold;
+}
+
+.tt-footnote {
+	color: @tc-gray;
+	font-family: @font-family-serif;
+	font-size: 12px;
+	line-height: 16px;
+}
+
+.tt-bold-un {
+	font-family: @ff-bold;
+	text-decoration: underline;
+	margin-right: 8px;
+}
+
+.tt-med-em {
+	font-family: @ff-med;
+	font-style: italic;
+	margin-right: 8px;
+}
+
+.tt-under {
+	text-decoration: underline;
+}
+
+.tt-italic {
+	font-style: italic;
+}
+
+.tt-upper {
+	text-transform: uppercase;
+}
+
+.tt-lower {
+	text-transform: lowercase;
+}
+
+.tt-cap {
+	text-transform: capitalize;
+}
+
+// Text Align
+.ta-left {
+	text-align: left;
+}
+
+.ta-center {
+	text-align: center;
+}
+
+.ta-right {
+	text-align: right;
+}
+
+// Vertical Align
+
+.ta-top {
+	vertical-align: top;
+	vertical-align: text-top;
+}
+
+.ta-middle {
+	vertical-align: middle;
+}
+
+.ta-bottom {
+	vertical-align: bottom;
+	vertical-align: text-bottom;
+}
+
+
+// Text color
+
+.tc-black {
+	color: @text-color !important;
+}
+
+.tc-gray {
+	color: @tc-gray !important;
+}
+
+.tc-gray-light {
+	color: @tc-gray-light !important;
+}
+
+.tc-green {
+	color: @tc-green !important;
+}
+
+.tc-pink {
+	color: @tc-pink !important;
+}
+
+.tc-yellow {
+	color: @tc-yellow !important;
+}
+
+.tc-orange {
+	color: @tc-orange !important;
+}
+
+.tc-red {
+	color: @tc-red !important;
+}
+
+.tc-blue {
+	color: @tc-blue !important;
+}
+
+// Specialty Text
+
+.lp-header {
+	font-family: @ff-light;
+	text-transform: uppercase;
+}
+
+.lp-header::first-letter {
+    font-size: 200%;
+	font-family: @ff-bold;
+}
+
+// Border Color
+.bc-green {
+	border-color: @tc-green !important;
+}
+
+
+// Lists
+
+#dl-main {
+	ul, ol {
+		margin-bottom: 30px;
+
+		li {
+			margin-bottom: 8px;
+		}
+
+		li:first-child {
+			margin-top: 8px;
+		}
+	}
+}
+
+ul.list-large-square {
+	list-style-type: square;
+	list-style-image: url('https://dlassets.stmath.com/images/mindshare/utils/square.png');
+
+	> li {
+		margin-bottom: 18px;
+	}
+}
+
+ul.list-checkmark li {
+	background: url("https://dlassets.stmath.com/images/mindshare/utils/check.png") no-repeat 0 5px;
+	background-size: 11px 13px;
+	padding-left: 18px;
+
+	ul.list-style-none {
+		background: none !important;
+		background-image: none !important;
+		background-size: 0 0 !important;
+		padding-left: 0 !important;
+		list-style-type: none !important;
+		list-style-image: none !important;
+
+		li {
+			background: none;
+			background-size: 0 0;
+			padding-left: 10px;
+		}
+	}
+}
+
+ul.list-checkmark {
+	list-style-type: none;
+	padding-left: 18px;
+}
+
+ul.list-style-none, ol.list-style-none {
+	background: none !important;
+	background-image: none !important;
+	background-size: 0 0 !important;
+	padding-left: 0 !important;
+	list-style-type: none !important;
+	list-style-image: none !important;
+}
+
+ul.list-disc {
+    list-style-type: disc;
+	list-style-image: none;
+}
+
+ul.list-dash {
+	list-style-type:none;
+	padding-left: 20px;
+
+	li {
+		 &:before {
+			content: " - ";
+		}
+	}
+}
+
+ul.list-square {
+    list-style-type: square;
+	list-style-image: none;
+}
+
+ol.list-upper-roman {
+    list-style-type: upper-roman;
+	list-style-image: none;
+}
+
+ol.list-lower-roman {
+    list-style-type: lower-roman;
+	list-style-image: none;
+}
+
+ol.list-upper-alpha {
+    list-style-type: upper-alpha;
+	list-style-image: none;
+}
+
+ol.list-lower-alpha {
+    list-style-type: lower-alpha;
+	list-style-image: none;
+}
+
+.text-numbered {
+	margin-left: 38px;
+
+	div {
+		margin-bottom: 18px;
+		position: relative;
+
+		&:before {
+			font-family: @ff-light;
+			content: attr(number);
+			font-size: 2.8em;
+			line-height: 42px;
+			color: @brand-primary;
+			position: absolute;
+			top: 8px;
+			left: -38px;
+		}
+	}
+}
+
+// Headings
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: @ff-med;
+	color: #000;
+	margin-top: 0px;
+}
+
+h1 {
+	font-size: 2em;
+}
+
+h2 {
+	font-size: 1.8em;
+
+}
+
+h3 {
+	font-size: 1.6em;
+}
+
+h4 {
+	font-size: 1.4em;
+}
+
+h5 {
+	font-size: 1.1em;
+}
+
+h6 {
+	font-size: 1em;
+}
+
+.dl-title {
+	font-family: @ff-bold;
+	font-size: 2.6em;
+	text-align: center;
+	width: 100%;
+	color: @brand-primary;
+}
+
+.temp-header-h1 {
+	font-size: 2.8em;
+	margin: 40px 0 60px;
+}
+
+.temp-header {
+	margin-bottom: 50px;
+	padding-bottom: 5px;
+	border-bottom: 2px solid #333;
+}
+
+.step-header {
+	color: @brand-primary;
+	padding-bottom: 3px;
+	border-bottom: 2px solid @brand-primary;
+}
+
+.dl-section-header {
+
+	h1 {
+		font-family: @ff-bold;
+		font-size: 3.6em;
+		margin: 0;
+		color: #888;
+		margin-bottom: 0;
+	}
+}
+
+.dl-header {
+	background: none;
+	padding: 15px 0;
+	margin-left: 0px;
+	margin-bottom: 18px;
+
+	&.hidden-header {
+		background: #fff;
+		padding: 0;
+		margin: 0;
+		min-height: 10px;
+	}
+
+	h1 {
+		font-family: @ff-bold;
+		font-size: 2.2em;
+		margin: 0;
+		color: @brand-primary;
+
+		&.tf-bold {
+			font-family: @ff-bold;
+		}
+	}
+
+	p.subtitle {
+		font-family: @ff-light;
+		font-size: 1.6em;
+		line-height: 1em;
+		padding-top: 8px;
+		display: block;
+		margin: 0;
+
+		&.tf-bold {
+			font-family: @ff-bold;
+		}
+	}
+}
+
+.alert-small {
+	padding: 10px;
+}
